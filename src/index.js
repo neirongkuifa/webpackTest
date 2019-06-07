@@ -6,3 +6,5 @@ const btn = new helloButton()
 
 h.render()
 btn.render()
+
+console.log('Test')

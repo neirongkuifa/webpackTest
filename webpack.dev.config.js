@@ -10,6 +10,11 @@ module.exports = {
 		publicPath: ''
 	},
 	mode: 'development',
+	devServer: {
+		contentBase: path.join(__dirname, 'dist'),
+		index: 'index.html',
+		port: 9000
+	},
 	module: {
 		rules: [
 			{
