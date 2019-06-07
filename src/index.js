@@ -1,7 +1,8 @@
-import greeting from '../components/hello-button/hello-world'
-import addImage from './add-image'
 import helloButton from '../components/hello-button/hello-world'
+import heading from '../components/heading/heading'
 
+const h = new heading()
 const btn = new helloButton()
 
+h.render()
 btn.render()
